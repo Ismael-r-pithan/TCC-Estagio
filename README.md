@@ -16,6 +16,18 @@ Rede social gameficada para gerenciamento de tarefas
 - Socket.io
 - Postgres
 
+## Chat e Gerenciamento de amizades
+
+![house-hero](https://github.com/Ismael-r-pithan/TCC-House-hero/assets/77652899/02ffe1bf-4469-4755-b9ee-857016fa1e5c)
+
+
+## Gerenciamento de Tarefas
+
+![house-hero-2](https://github.com/Ismael-r-pithan/TCC-House-hero/assets/77652899/698a4a60-a2e4-47c4-b5ea-32dfa35909df)
+
+## Loja
+
+![house-hero-3](https://github.com/Ismael-r-pithan/TCC-House-hero/assets/77652899/ac7240a9-5c9e-416d-b780-83da486defdf)
 
 
 ## Recursos
