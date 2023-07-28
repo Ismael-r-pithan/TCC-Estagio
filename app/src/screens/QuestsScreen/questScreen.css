@@ -1,0 +1,30 @@
+.questsSection {
+  background: rgba(14, 21, 23, 0.5);
+}
+
+.screenContainer {
+  background-image: var(--home-bg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.questsMainSection {
+  background: var(--secondary-color);
+  height: 95%;
+  width: 95%;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.availableList{
+  display: flex;  
+  width: 36vw;
+  height: 90%;
+  flex-direction: column;
+  overflow-y: scroll;
+  gap: 30px;
+  padding-top: 20px;
+}

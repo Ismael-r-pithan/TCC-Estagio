@@ -1,0 +1,40 @@
+.questCardContainer {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid green;
+  border-radius: 10px;
+}
+
+.frequencyContainer {
+  width: 120px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: rgb(216, 214, 214);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frequencyText{
+    color: rgb(77, 10, 10);
+    font-size: 16px;
+}
+
+.questText{
+    color: var(--primary-color);
+}
+
+.questHeader{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--primary-color);
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.questInfo{
+    margin: 10px 0px 10px 0px;
+}

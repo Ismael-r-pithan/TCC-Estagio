@@ -1,0 +1,49 @@
+.friendCardContainer {
+  background: var(--secondary-color);
+  width: 95%;
+  border-radius: 10px;
+  border: 1px solid var(--primary-color);
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+.friendUsername {
+  color: var(--primary-color);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 25px;
+  
+}
+
+.friendAvatar {
+  width: 52px;
+  height: 52px;
+  border-radius: 100%;
+}
+
+.friendCardInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.friendCardButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.expFriend {
+  padding: 6px;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 8px;
+  text-align: center;
+  line-height: 3.125;
+}

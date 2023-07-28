@@ -1,0 +1,78 @@
+.userProgress {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.progressContainer {
+  width: 50%;
+}
+
+.progressTitle {
+  margin-left: 1;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.8333333333333334px;
+}
+
+.progressXp {
+  margin-top: 20px;
+  margin-left: 384px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 10px;
+  text-align: right;
+  line-height: 2.5px;
+}
+
+.progressLvlContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+  margin-left: 1px;
+}
+
+.progressLvl {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.25px;
+}
+
+.streakContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.streak {
+  display: flex;
+  align-items: center;
+  padding: 40px 48px 40px 20px;
+  border-radius: 10px;
+  background: linear-gradient(150deg, #09732f 0%, #00ffa3 100%);
+  background-image: var(--streak-bg);
+  background-size: cover;
+}
+
+.streakTitle {
+  color: #ffffff;
+  font-weight: 700px;
+  font-size: 30px;
+  line-height: 0.8333333333333334px;
+}
+
+.streakCounter {
+  margin-left: auto;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 0.5px;
+}
+
+

@@ -1,0 +1,101 @@
+.formContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 380px;
+  height: 680px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+.logoImg-big {
+  width: 210px;
+  height: 210px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.formTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.formInputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.formInputContainer input {
+  font-family: var(--main-font);
+  border: none;
+  border-bottom: 1px solid black;
+  height: 40px;
+  font-size: 20px;
+}
+
+.formInputContainer label {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.passwordRecovery {
+  color: rgba(30, 30, 30, 0.7);
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 25px;
+  align-self: flex-end;
+}
+
+
+.formInputButtonsContainer{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.formInputButtonsContainer p{
+    margin: 20px;
+    font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+color: var(--primary-color);
+}
+
+.errorMsg{
+  color: red;
+}
+
+.smallFormTitle{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.formInstructions{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--primary-color);
+}

@@ -1,0 +1,31 @@
+.profileScreen{
+    background-image: var(--profile-bg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.profileSection{
+    background: rgba(14, 21, 23, 0.5);
+}
+
+
+.friendsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.profileQuestsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: scroll;
+}
+
+.friendshipSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,50 @@
+.hamburgerLine{
+
+    width: 35px;
+    height: 5px;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.hamburgerMenu{
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    margin-right: 120px;
+
+    transition: all 1s ease-in-out;
+}
+
+.off div{
+    background-color: var(--secondary-color);
+}
+
+.on div{
+    background-color: var(--complete);
+}
+
+.hamburgerMenu:hover div{
+    background-color: var(--complete);
+}
+
+
+.off {
+    border: none;
+}
+
+
+
+.on {
+    border: 1px solid var(--complete);
+}
+
+
+
+.hamburgerMenuContainer{
+    width: auto;
+    height: auto;
+}

@@ -1,0 +1,111 @@
+.mainPageSection {
+  border-radius: 10px;
+  width: 95%;
+  height: 100vh;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboardSection {
+  background: rgba(14, 21, 23, 0.5);
+}
+
+.dashboardContainer{
+  width: 100vw;
+  height: 100vh;
+  background-image: var(--home-bg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mainPageHeader {
+  align-self: flex-start;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+  margin: 20px 20px 20px 20px;
+  width: 100%;
+}
+
+.dashboardCards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-right: 40px;
+}
+
+.mainPageTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.mainSection {
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  min-height: 60%;
+  width: 98%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sectionContainer {
+  width: 30vw;
+  height: 95%;
+}
+
+.rankContainer {
+  width: 25vw;
+  height: 95%;
+}
+
+.sectionTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: var(--primary-color);
+}
+
+.gradientContainer {
+  min-width: 300px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(149.65deg, #09732f 2.47%, #00ffa3 81.54%);
+  border-radius: 10px;
+}
+
+.bottomSection {
+  background-color: var(--primary-color);
+  height: 160px;
+  width: 98%;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.confirmText {
+  text-align: center;
+}
+
+.smallQuestDescription{
+  color: var(--primary-color);
+}
+
+.availableQuestsContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+  overflow-y: scroll;
+  height: 380px;
+}

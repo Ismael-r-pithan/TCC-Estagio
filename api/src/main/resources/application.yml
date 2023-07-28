@@ -1,0 +1,57 @@
+spring:
+  messages:
+    encoding: UTF-8
+    basename: messages
+  resources:
+    static-locations: classpath:/static/
+  mvc:
+    servlet:
+      context-path: /api
+    static-path-pattern: /static/**
+  datasource:
+    url: jdbc:postgresql://localhost:5432/househero
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  mail:
+    host: smtp.gmail.com
+    service: gmail
+    port: 587
+    username: usernodemaller@gmail.com
+    password: qhckvidiokuowblc
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: true
+
+
+server:
+  error:
+    include-message: always
+  servlet:
+    context-path: /api
+
+logging:
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+  level:
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.springframework.web.servlet: DEBUG
+    org.springframework.security: DEBUG
+
+  FileContentType:
+    CreateItemRequest:
+      image: A foto deve ser do tipo JPG ou PNG
+
+
+
+

@@ -1,0 +1,99 @@
+.chatBody {
+  width: 95%;
+  height: 80%;
+    background-color: white;
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+
+.chatContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chatHeader {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.activeFriendCard {
+  display: flex;
+  width: 90%;
+  height: 100%;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.activeFriendAvatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+
+.activeFriendName {
+  color: white;
+  font-size: 25px;
+}
+
+.chatFooter {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  height: 40px;
+  margin-bottom: 10px;
+background: rgba(217, 217, 217, 0.3);
+
+  border-radius: 10px;
+}
+
+.chatInput {
+  width: 90%;
+  height: 100%;
+  border: none;
+  background: none;
+  padding-left: 10px;
+  font-family: var(--main-font);
+  font-size: 16px;
+}
+
+.chatSendButton{
+    border: none;
+    background: none;
+}
+
+.chatSendButton:hover{
+    color: red;
+    background-color: green;
+}
+
+.messageContainer{
+    width: 100%;
+    height: 100px;
+    border-top: 1px solid black;
+
+}
+
+.messageContainer p{
+    color: var(--primary-color);
+}
+
+.messageSender{
+    font-size: 20px;
+}
+
+.senderUser{
+    background-color:rgba(0, 255, 163, 0.5);
+
+}
+

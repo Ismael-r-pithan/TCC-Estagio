@@ -1,0 +1,18 @@
+.friendsSection{
+    background: rgba(14, 21, 23, 0.5);
+}
+
+.friendsScreen{
+    background-image: var(--home-bg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.exploreSection{
+    background-color: var(--primary-color);
+    height: 215px;
+    width: 98%;
+    border-radius: 10px;
+    margin: 25px 0px 25px 0px;
+}

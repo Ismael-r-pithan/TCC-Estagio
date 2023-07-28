@@ -1,0 +1,39 @@
+.fieldContainer input {
+  width: 100%;
+  flex-shrink: 0;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgba(217, 217, 217, 0.3);
+  color: white;
+}
+
+.fieldContainer textarea {
+  padding: 5px;
+  resize: none;
+  height: 160px;
+  width: 100%;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: rgba(217, 217, 217, 0.3);
+  color: white;
+}
+
+.select {
+  width: 100%;
+  flex-shrink: 0;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #575757;
+  color: white;
+}
+
+.createButton {
+  height: 32px;
+  font-size: 15px;
+  font-family: var(--main-font);
+  font-weight: 600;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 10px;
+  color: #1e1e1e;
+}

@@ -1,0 +1,39 @@
+version: "3"
+
+services:
+  postgres:
+    image: postgres
+    restart: always
+    container_name: postgres
+    ports:
+    - 5432:5432
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=househero
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    networks:
+      - bridge
+  backend:
+    build: ./api
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/househero
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: postgres
+    networks:
+      - bridge
+
+
+volumes:
+  db-data:
+
+networks:
+  bridge:
+
+
+

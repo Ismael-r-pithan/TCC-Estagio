@@ -1,0 +1,29 @@
+.requestCard{
+    background: var(--primary-color);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 120px;
+    margin: 20px 0px 40px 0px;
+}
+
+
+.requestInfo{
+    display: flex;
+    align-items: center;
+}
+
+.requestInfo h1,p{
+    color: var(--secondary-color);
+}
+
+.requestNameEmail{
+    margin-left: 20px;
+}
+
+.friendsRequestsContainer{
+    overflow-y: scroll;
+    height: 500px;
+}

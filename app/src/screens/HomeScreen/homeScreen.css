@@ -1,0 +1,12 @@
+.homeScreenContainer{
+    width: 100vw;
+    height: 100vh;
+    background-image: var(--home-bg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.containerText{
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+.form {
+    display: flex;
+    align-items: center;
+  }
+
+  .categoria {
+    height: 30px;
+    padding: 6px 11px;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 10px;
+    text-align: center;
+    line-height: 2.5;
+  }
+
+  .prioridade {
+    height: 30px;
+    padding: 6px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 10px;
+    text-align: center;
+    line-height: 2.5;
+  }
+
+  .dia-semana {
+    height: 30px;
+    padding: 6px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    white-space: nowrap;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 8px;
+    text-align: center;
+    line-height: 3.125;
+  }
